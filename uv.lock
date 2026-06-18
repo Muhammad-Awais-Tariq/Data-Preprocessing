@@ -252,6 +252,7 @@ name = "data-preprocessing"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "charset-normalizer" },
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "mlxtend" },
@@ -263,6 +264,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "charset-normalizer", specifier = ">=3.4.7" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.11.0" },
     { name = "mlxtend", specifier = ">=0.25.0" },
